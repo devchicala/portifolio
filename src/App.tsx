@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import './styles/App.css';
-import * as ReactBootStrap from 'react-bootstrap'
+import { useState } from "react";
+import "./styles/App.css";
+import * as ReactBootStrap from "react-bootstrap";
 
 function App() {
-  let dados; 
+  let dados;
   let dado: any;
 
   const [datas, setDatas] = useState(dado);
@@ -11,33 +11,35 @@ function App() {
 
   async function getData(value: any) {
     const data = await fetch(`https://viacep.com.br/ws/${value}/json/`);
-    return await data.json()
-}
+    return await data.json();
+  }
 
   function onblur(ev: any) {
     const { value } = ev.target;
-    const cep = value?.replace(/[^0-9]/g, '');
+    const cep = value?.replace(/[^0-9]/g, "");
 
-    if (cep?.length !== 8 || cep === '') {
-      setLoading(false)
+    if (cep?.length !== 8 || cep === "") {
+      setLoading(false);
       return;
     }
 
     (async () => {
       dados = await getData(cep);
-      setLoading(true)
-      setDatas(dados.localidade)
-  })();
+      setLoading(true);
+      setDatas(dados.localidade);
+    })();
   }
 
   return (
     <div className="App">
-      <p className="texto">Insira um cep válido!</p>
-      <input className="input" type="text" onChange={(ev) =>  onblur(ev)} />
+      <p className="texto">Insert a cep valid!</p>
+      <input className="input" maxLength={8} type="text" onChange={(ev) => onblur(ev)} />
       <div className="cep">
-        
-        {loading ? 'ESTE CEP É VÁLIDO, LOCALIDADE: ' + datas : <ReactBootStrap.Spinner animation="border" />}
-
+        {loading ? (
+          "THE CEP LOCATE IS: " + datas
+        ) : (
+          <ReactBootStrap.Spinner animation="border" />
+        )}
       </div>
     </div>
   );
