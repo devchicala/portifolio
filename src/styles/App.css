@@ -20,3 +20,7 @@
   margin-top: 2rem;
   text-transform: uppercase;
 }
+
+.span {
+  justify-content: start;
+}
