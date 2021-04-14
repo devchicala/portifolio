@@ -1,9 +1,10 @@
 import { useState } from "react";
 import "./styles/App.css";
 import * as ReactBootStrap from "react-bootstrap";
+import Cep from "./interface/app.utils";
 
 function App() {
-  let dados;
+  let dados: Cep;
   let dado: any;
 
   const [datas, setDatas] = useState(dado);
