@@ -36,7 +36,7 @@ function App() {
       <p className="texto">Insert a cep valid!</p>
       <input className="input" maxLength={8} type="text" onChange={(ev) => onblur(ev)} />
       <div className="cep">
-        {loading ? (
+        {loading && datas !== 'undefined' ? (
           "THE CEP LOCATE IS: " + datas
         ) : (
           <ReactBootStrap.Spinner animation="border" />
