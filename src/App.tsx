@@ -2,25 +2,11 @@ import { useState } from 'react';
 import './styles/App.css';
 import * as ReactBootStrap from 'react-bootstrap'
 
-type Cep = {
-  bairro: string,
-  cep: string,
-  complemento: string,
-  ddd: string,
-  gia: string,
-  ibge: string,
-  localidade: string,
-  logradouro: string,
-  siafi: string
-  uf: string,
-}
-
-
 function App() {
   let dados; 
   let dado: any;
 
-  const [dadoss, setDadoss] = useState(dado);
+  const [datas, setDatas] = useState(dado);
   const [loading, setLoading] = useState(false);
 
   async function getData(value: any) {
@@ -40,7 +26,7 @@ function App() {
     (async () => {
       dados = await getData(cep);
       setLoading(true)
-      setDadoss(dados.localidade)
+      setDatas(dados.localidade)
   })();
   }
 
@@ -50,7 +36,7 @@ function App() {
       <input className="input" type="text" onChange={(ev) =>  onblur(ev)} />
       <div className="cep">
         
-        {loading ? 'ESTE CEP É VÁLIDO, LOCALIDADE: ' + dadoss : <ReactBootStrap.Spinner animation="border" />}
+        {loading ? 'ESTE CEP É VÁLIDO, LOCALIDADE: ' + datas : <ReactBootStrap.Spinner animation="border" />}
 
       </div>
     </div>
