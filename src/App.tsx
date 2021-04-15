@@ -34,6 +34,7 @@ function App() {
     <div className="App">
       <p className="texto">Insert a cep valid!</p>
       <input
+        id="cep"
         className="input"
         maxLength={8}
         type="text"
