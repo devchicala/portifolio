@@ -5,7 +5,6 @@ import Cep from "./interface/app.utils";
 
 function App() {
   let dados: Cep;
-  let dado: any;
 
   const [datas, setDatas] = useState<Cep | null>(null);
   const [loading, setLoading] = useState(false);
@@ -44,15 +43,16 @@ function App() {
       <div className="cep">
         {loading && datas?.cep !== "undefined" ? (
           <>
-            <b>CEP: </b> {datas?.cep} <br />
-            <b>BAIRRO: </b> {datas?.bairro} <br />
-            <b>COMPLEMENTO: </b> {datas?.complemento} <br />
-            <b>DDD: </b> {datas?.ddd} <br />
-            <b>GIA: </b> {datas?.gia} <br />
-            <b>IBGE: </b> {datas?.ibge} <br />
-            <b>LOCALIDADE: </b> {datas?.localidade} <br />
-            <b>SIAFI: </b> {datas?.siafi} <br />
-            <b>UF: </b> {datas?.uf} <br />
+            <b className="result">Results</b> <br />
+            <b>CEP: </b> {''+datas?.cep} <br />
+            <b>BAIRRO: </b> {''+datas?.bairro} <br />
+            <b>COMPLEMENTO: </b> {''+datas?.complemento} <br />
+            <b>DDD: </b> {''+datas?.ddd} <br />
+            <b>GIA: </b> {''+datas?.gia} <br />
+            <b>IBGE: </b> {''+datas?.ibge} <br />
+            <b>LOCALIDADE: </b> {''+datas?.localidade} <br />
+            <b>SIAFI: </b> {''+datas?.siafi} <br />
+            <b>UF: </b> {''+datas?.uf} <br />
           </>
         ) : (
           <ReactBootStrap.Spinner animation="border" />
