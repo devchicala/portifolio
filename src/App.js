@@ -14,7 +14,6 @@ import {
   FaReact,
   FaNodeJs,
 } from "react-icons/fa";
-import { BsFillCircleFill } from "react-icons/bs";
 
 function App() {
   return (
@@ -106,8 +105,8 @@ function App() {
               Profissioal apixonado com a área de TI (Especialmente
               Desenvolvimento de Sistemas) com mais de 4 anos de experiência.
               Actuo em desenvolvimento Web e Mobile, domino as seguintes
-              tecnologia/frameworks: Java, Javascrip, Typescript Angular, React,
-              NodeJs e Spring Boot ... possuo experiência em Gestão de Projecto
+              tecnologia/frameworks: Java, Javascrip, Typescript Angular, React DOM, React Native
+              NodeJs e Spring Boot ... possuo em UI/UX Design bem com Gestão de Projectos
               (PMO). Gosto de desafios e procuro fazer parte de projectos que me
               incetivam a revelar a minha melhor versão de profissional.
             </p>
