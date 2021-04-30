@@ -14,6 +14,7 @@ import {
   FaReact,
   FaNodeJs,
 } from "react-icons/fa";
+import { BsFillCircleFill } from "react-icons/bs";
 
 function App() {
   return (
@@ -63,6 +64,11 @@ function App() {
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#skills">
                 Habilidades
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">
+                Projectos
               </a>
             </li>
             <li class="nav-item">
@@ -280,6 +286,84 @@ function App() {
                 Development &amp; Scrum
               </li>
             </ul>
+          </div>
+        </section>
+
+        <hr class="m-0" />
+
+        <section
+          class="resume-section p-3 p-lg-5 d-flex align-items-center"
+          id="projects"
+        >
+          <div class="w-100">
+            <h2 class="mb-5">Projectos</h2>
+            <div class="mb-5">
+              <p class="mb-0">
+                <h3>Ecoleta</h3>
+              </p>
+              <p class="mb-4">
+                O projeto tem como finalidade estabelecer uma conexão entre
+                empresas e/ou entidades que coletam resíduos (orgânicos e
+                inorgânicos) às pessoas e/ou entidades que necessitam
+                constantemente descartar esses resíduos. Solucionando um grande
+                problema recorrente que é o descarte inadequado do lixo,
+                facilitando o processo de recliclagem e reutilização.
+              </p>
+              <p class="mb-4">
+                <b>Tecnologias Server (NodeJs + Typescript):</b> Express, CORS,
+                KnexJS, SQLite,ts-node
+              </p>
+              <p class="mb-4">
+                <b>Tecnologias Web (React DOM + Typescript):</b> React Router
+                Dom, React Icons, Axios, Leaflet, React Leaflet, React Dropzone
+              </p>
+              <p class="mb-0">
+                <h5>FrontEnd &amp; BackEnd</h5>
+                <a href="https://github.com/devchicala/ecoleta">
+                  <p>Abrir no Github</p>
+                </a>
+              </p>
+            </div>
+
+            <div class="mb-5">
+              <p class="mb-0">
+                <h3>Meet Angola</h3>
+              </p>
+              <p class="mb-4">
+                Projecto tem como finalidade conhecer os principais pontos
+                turísticos de Angola
+              </p>
+              <p class="mb-4">
+                <b>Tecnologias (React Native + Typescript):</b> Expo, Expo
+                Google Fonts, React Navigation, React Native Maps
+              </p>
+              <p class="mb-0">
+                <h5>Code</h5>
+                <a href="https://github.com/devchicala/meetAngolaMobile">
+                  <p>Abrir no Github</p>
+                </a>
+              </p>
+            </div>
+
+            <div class="mb-3">
+              <p class="mb-0">
+                <h3>Move.It</h3>
+              </p>
+              <p class="mb-4">
+                O Move.it é um App que utiliza a técnica de pomodoro, com o
+                objetivo de melhorar sua produtividade e foco. Evitando
+                problemas de saúde que podem ser causados pela carga de trabalho
+              </p>
+              <p class="mb-4">
+                <b>Tecnologias (React DOM + Typescript):</b> React, Next.js, TypeScript, JavaScript Cookie,Styled Components, React Icons, VS Code com ESLint, Prettier e EditorConfig
+              </p>
+              <p class="mb-0">
+                <h5>Code</h5>
+                <a href="https://github.com/devchicala/moveit">
+                  <p>Abrir no Github</p>
+                </a>
+              </p>
+            </div>
           </div>
         </section>
 
