@@ -13,7 +13,10 @@ import {
   FaYarn,
   FaReact,
   FaNodeJs,
+  FaFlutter,
 } from "react-icons/fa";
+
+import { SiFlutter } from "react-icons/si";
 
 function App() {
   return (
@@ -105,10 +108,11 @@ function App() {
               Profissioal apixonado com a área de TI (Especialmente
               Desenvolvimento de Sistemas) com mais de 4 anos de experiência.
               Actuo em desenvolvimento Web e Mobile, domino as seguintes
-              tecnologia/frameworks: Java, Javascrip, Typescript Angular, React DOM, React Native
-              NodeJs e Spring Boot ... possuo em UI/UX Design bem com Gestão de Projectos
-              (PMO). Gosto de desafios e procuro fazer parte de projectos que me
-              incetivam a revelar a minha melhor versão de profissional.
+              tecnologia/frameworks: Java, Javascrip, Typescript, Angular,
+              Flutter, React DOM, React Native NodeJS e Spring Boot ... também
+              actuo em UI/UX Design bem com Gestão de Projectos (PMO). Gosto de
+              desafios e procuro fazer parte de projectos que me incetivam a
+              revelar a minha melhor versão de profissional.
             </p>
             <div class="social-icons">
               <a href="https://www.linkedin.com/in/d%C3%A9lcio-francisco-143107175/">
@@ -135,10 +139,13 @@ function App() {
                 <h3 class="mb-0">Fullstack Developer</h3>
                 <div class="subheading mb-3">KUFUTA</div>
                 <p>
+                  Trabalhei como Mobile Developer & Full Stack, uso de
+                  tecnologia de desenvolvimento web e Mobile como: HTML5, CSS3,
+                  Javascript, ReactJS, React Native, Firebase, Bootstrap, AWS.
+                </p>
+                <p>
                   Trabalhar numa Startup é sempre desafiante e bem interessante,
-                  na Kufuta começei trabalhando como Mobile Developer e depois
-                  passei apois outras áreas como: Helpdesk e Project Manager.
-                  Foi uma ôptima experiência trabalhar nesta startup, pude
+                  foi uma ôptima experiência trabalhar nesta startup, pude
                   aprender bastante e conheci profissionais incríveis que
                   marcarão para sempre a minha vida profissional.
                 </p>
@@ -156,6 +163,13 @@ function App() {
                   Web Developer ... participação em projectos em uma equipe
                   jovem e com excelentes qualidades!
                 </p>
+                <p>
+                  Actuei como Full Stack, utizei diversas ferramentas e
+                  Tecnologias no Back End trabalhei com Spring Boot (Java),
+                  PostgreSQL, MongoDB para o desenvolvimento das APIs e para o
+                  Front End trabalhei com o Angular 8, CSS3, HTML5, Fontawesome,
+                  Primefaces.
+                </p>
               </div>
               <div class="resume-date text-md-right">
                 <span class="text-primary">Feveriro 2020 - Dezembro 2020</span>
@@ -167,10 +181,10 @@ function App() {
                 <h3 class="mb-0">Frontend Developer</h3>
                 <div class="subheading mb-3">PETABYTE</div>
                 <p>
-                  Participei no desenvolvimento de sistema frontend e backend.
-                  Usau-se diferentes frameworks e linguagens de programação,
-                  sendo Spring boot (Java) para o lado servidor e Angular e
-                  ReactJS para o frontend.
+                  Participei no desenvolvimento de Sistemas Frontend. Usou-se
+                  diferentes tecnolologias e linguagens de programação para o
+                  desenvolvimento de sistemas Front End como Angular e ReactJS
+                  para o frontend.
                 </p>
               </div>
               <div class="resume-date text-md-right">
@@ -260,6 +274,9 @@ function App() {
               <li class="list-inline-item">
                 <FaNodeJs />
               </li>
+              <li class="list-inline-item" alt="Flutter">
+                <SiFlutter />
+              </li>
             </ul>
 
             <div class="subheading mb-3">Workflow</div>
@@ -309,12 +326,11 @@ function App() {
                 facilitando o processo de recliclagem e reutilização.
               </p>
               <p class="mb-4">
-                <b>Tecnologias Server (NodeJs + Typescript):</b> Express, CORS,
-                KnexJS, SQLite,ts-node
+                <b>Tecnologias Server:</b> Express, CORS, KnexJS, SQLite,ts-node
               </p>
               <p class="mb-4">
-                <b>Tecnologias Web (React DOM + Typescript):</b> React Router
-                Dom, React Icons, Axios, Leaflet, React Leaflet, React Dropzone
+                <b>Tecnologias Web:</b> React Router Dom, React Icons, Axios,
+                Leaflet, React Leaflet, React Dropzone
               </p>
               <p class="mb-0">
                 <h5>FrontEnd &amp; BackEnd</h5>
@@ -333,8 +349,8 @@ function App() {
                 turísticos de Angola
               </p>
               <p class="mb-4">
-                <b>Tecnologias (React Native + Typescript):</b> Expo, Expo
-                Google Fonts, React Navigation, React Native Maps
+                <b>Tecnologias:</b> Expo, Expo Google Fonts, React Navigation,
+                React Native Maps
               </p>
               <p class="mb-0">
                 <h5>Code</h5>
@@ -344,7 +360,7 @@ function App() {
               </p>
             </div>
 
-            <div class="mb-3">
+            <div class="mb-5">
               <p class="mb-0">
                 <h3>Move.It</h3>
               </p>
@@ -354,11 +370,52 @@ function App() {
                 problemas de saúde que podem ser causados pela carga de trabalho
               </p>
               <p class="mb-4">
-                <b>Tecnologias (React DOM + Typescript):</b> React, Next.js, TypeScript, JavaScript Cookie,Styled Components, React Icons, VS Code com ESLint, Prettier e EditorConfig
+                <b>Tecnologias:</b> React, Next.js, TypeScript, JavaScript
+                Cookie,Styled Components, React Icons, VS Code com ESLint,
+                Prettier e EditorConfig
               </p>
               <p class="mb-0">
                 <h5>Code</h5>
                 <a href="https://github.com/devchicala/moveit">
+                  <p>Abrir no Github</p>
+                </a>
+              </p>
+            </div>
+
+            <div class="mb-5">
+              <p class="mb-0">
+                <h3>Plantmanager</h3>
+              </p>
+              <p class="mb-4">
+                O Plant Manager é um app para lembrar as pessoas de regar as
+                suas plantinhas.
+              </p>
+              <p class="mb-4">
+                <b>Tecnologias:</b> React Native, Expo, TypeScript, Styled
+                Components.
+              </p>
+              <p class="mb-0">
+                <h5>Code</h5>
+                <a href="https://github.com/devchicala/plantmanager">
+                  <p>Abrir no Github</p>
+                </a>
+              </p>
+            </div>
+
+            <div class="mb-5">
+              <p class="mb-0">
+                <h3>E-Learning</h3>
+              </p>
+              <p class="mb-4">Sistema de ensino a distância (E-Learning)</p>
+              <p class="mb-4">
+                <b>Tecnologias Server:</b> Java, Spring Boot
+              </p>
+              <p class="mb-4">
+                <b>Tecnologias Web:</b> Angular 8, Primefaces, Bootstrap
+              </p>
+              <p class="mb-0">
+                <h5>FrontEnd &amp; BackEnd</h5>
+                <a href="https://github.com/devchicala/ajudaacademica">
                   <p>Abrir no Github</p>
                 </a>
               </p>
