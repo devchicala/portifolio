@@ -106,7 +106,7 @@ function App() {
               Tenho experiência em desenvolvimento de plataformas ágeis para
               fornecer uma sinopse robusta para visões gerais de alto nível.
               Profissioal apixonado com a área de TI (Especialmente
-              Desenvolvimento de Sistemas) com mais de 3 anos de experiência.
+              Desenvolvimento de Sistemas) com mais de 2 anos de experiência.
               Actuo em desenvolvimento Web e Mobile, domino as seguintes
               tecnologia/frameworks: Java, Javascrip, Typescript, Angular,
               Flutter, React DOM, React Native, NodeJS e Spring Boot ... também
